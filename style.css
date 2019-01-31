@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    background-color: rgb(34, 46, 46);
+}
+
+.pastel-blue{
+     background-color: #9eb8e2;
+     color: #0b2661;
+}
+
+.pastel-green{
+    background-color: #9ee2ad;
+    color: #093511;
+}
+
+.pastel-yellow{
+    background-color: #e2dd9e;
+    color: #3d380c;
+}
+
+.pastel-red{
+    background-color: #e29e9e;
+    color: #361111;
+}
+
+.pastel-purple{
+    background-color: #cc9ee2;
+    color: #250825;
+}
+
+.dark-red{
+    background-color: #8b0f0f;
+    color: #b89b9b;
+}
+
+.dark-blue{
+    background-color: #0f368b;
+    color: #81a6f5;
+}
+
+.dark-green{
+    background-color: #138b0f;
+    color: #9ad8b9;
+}
+
+.dark-yellow{
+    background-color: #8b780f;
+    color: #f5e7bb;
+}
+
+.primary{
+    background-color: #8b8b8b;
+    color: #f8f8f8;
+}
+
+.success{
+    background-color: #49db75;
+    color: #05251c;
+}
+
+.column-20{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.column-30{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.column-40 {
+    float: left;
+    width: 40%;
+    padding: 10px;    
+}
+
+.column-60 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+
+.column-70{
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+
+.column-80{
+    float: left;
+    width: 80%;
+    padding: 10px;
+}
+
+.column-100{
+    float: left;
+    width: 20%;
+    padding: 100px;
+}
+
+
+.header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    background: rgba(200, 200, 200, 0.6);
+    background-image: url("bg.png");
+    height: 526px;
+    color: aliceblue;
+}
+
+#avatar  {
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 10rem;
+  }
